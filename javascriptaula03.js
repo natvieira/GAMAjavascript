@@ -26,4 +26,33 @@ variavelArray.push = variavelBooleana2;
 
 console.log("variavelArray = " + typeof(variavelArray));
 
-//minuto 4 da aula 04
+//Declarando objeto, localização e exibição no array
+//Objeto
+
+///APRESENTANDO ERRO DE OBJETO
+
+let carro =
+{
+    cor: 'preto',
+    ano: '2012',
+    marca: 'volk',
+    modelo: 'celta',
+};
+console.log("carro: " + typeof(carro));
+variavelArray.push = carro;
+
+
+//Inserindo no array
+
+
+console.log("variavelArray = " + typeof(variavelArray));
+
+//Lendo
+
+console.log ("Conteúdo da variavel Array" + variavelArray);
+
+//Para conseguir visualizar o que há no objeto, sabendo que ele foi incluído na posição 6
+console.log("variavelArray = " + variavelArray);
+console.log ("carro" + variavelArray[5]);
+console.log (variavelArray[5]);
+
